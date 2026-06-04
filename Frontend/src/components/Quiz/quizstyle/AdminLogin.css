@@ -1,0 +1,61 @@
+/* Use bkimg as full-page background */
+.bkimg {
+    min-height: 100vh;
+    background: url('../../Home/img/banner.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Login card */
+  .admincontainer {
+    background-color: transparent;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+  }
+  
+  .adminheading {
+    color: #ff992b;
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  /* Input fields */
+  .admincontainer label {
+    display: block;
+    margin: 1em 0 0.5em;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .admincontainer input {
+    width: 100%;
+    padding: 0.6em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #e9f0ff;
+  }
+  
+  /* Login Button */
+  .admincontainer .btn {
+    width: 100%;
+    padding: 0.7em;
+    font-weight: bold;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .admincontainer .btn:hover {
+    background-color: #0056b3;
+  }
+  
